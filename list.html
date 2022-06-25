@@ -1,54 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style="height:100vh ; width:100vw; " lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/list.css"/>
+    <link rel="stylesheet" href="styles/common.css"/>
     <title>List</title>
 </head>
-<body>
+<body style="height: 100vh; width:100vw;">
     <div>
-            <div> <!--Header portion-->
-                <a href="index.html"><img src="assests/images/logo.png" alt="logo" height="200px" width="150px"/></a>
-                <a href="login.html" target="_blank" >Login</a>
-            </div>
+            <header> <!--Header portion-->
+                <a href="index.html"><img id="hlogo" src="assests/images/logo.png" alt="logo"/></a>
+                <a href="login.html" target="_blank">Login</a>
+            </header>
        
 
         <div><!--Content Portion-->
            <ul>
             <li>
-                <a href="list.html" target="_self">List View</a>
+                <a href="list.html#list-view" target="_self">List View</a>
             </li>
             <li>
-                <a href="list.html" target="_self">Map View</a>
+                <a href="list.html#map-view" target="_self">Map View</a>
             </li>
            </ul>
 
+         <div id="list-view"><!--All hotel photos together-->
+
            <a href="detail.html" target="_self"><div><!--Radisson Image-->
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"/><br/>
+            <img class="hotelimage" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"/><br/>
             <h3>Radisson Blu Hotel</h3> 5 Star <br/><br/> New Delhi
            </div>
            </a>
 
            <div><!--Lalit Hotel-->
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"/><br/>
+            <img class="hotelimage" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"/><br/>
             <h3>The Lalit New Delhi</h3>
             4.5 Star<br/><br/>
             New Delhi
            </div>
 
            <div><!--Taj-->
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"/><br/>
+            <img class="hotelimage" src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"/><br/>
             <h3>Taj Palace</h3>
             4.0 Star<br/><br/>
             New Delhi
            </div>
+         </div>  
 
-           <div><!--Map Image-->
+         
+
+           <div id="map-view"><!--Map Image-->
             <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"/><br/><br/>
             MAP VIEW
 
            </div>
+           
 
     
            
@@ -63,9 +71,9 @@
                 <a href="contact.html">Contact Us</a>
             </div>
             <div>
-                <a href="https://www.facebook.com"><img src="assests/images/facebook.png" height="20px" width="22px"/></a>
-                <a href="https://www.instagram.com"><img src="assests/images/instagram.png" height="20px" width="22px"/></a>
-                <a href="https://twitter.com"><img src="assests/images/twitter.png" height="20px" width="22px"/></a>
+                <a  href="https://www.facebook.com"><img class="smimg" src="assests/images/facebook.png" /></a>
+                <a  href="https://www.instagram.com"><img class="smimg" src="assests/images/instagram.png" /></a>
+                <a href="https://twitter.com"><img class="smimg" src="assests/images/twitter.png"/></a>
             </div>
             <span>&#169; 2020 ROOM SEARCH PVT.LTD </span>
         </div>

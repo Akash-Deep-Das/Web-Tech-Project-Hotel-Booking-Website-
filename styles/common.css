@@ -1,0 +1,14 @@
+html,body{
+    width:100vw;
+    height:100vh;
+}
+
+#hlogo{
+    height:60px;
+    width:60px;
+}
+
+.smimg{
+    width:22px;
+    height:20px;
+}
