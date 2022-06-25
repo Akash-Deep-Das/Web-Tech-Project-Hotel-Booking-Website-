@@ -7,3 +7,30 @@ html,body{
     width:22px;
     height:20px;
 }
+
+#poolimg2{
+    width:50%;
+    height:20%;
+    margin: 2% 2% 0% 0%;
+}
+
+#bookformfill{
+    margin:4% 4% 2% 4%;
+    
+}
+
+#tariffbr{
+    margin:4% 4% 2% 4%;
+    border:2px solid black;
+    padding:1% 2% 1% 2%;
+    box-sizing: border-box;
+}
+
+
+#hotelinfo{
+    background-color: rgb(132,136,139);
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+}

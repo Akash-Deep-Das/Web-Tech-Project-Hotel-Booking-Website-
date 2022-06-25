@@ -1,6 +1,15 @@
+html{
+    margin:0%;
+}
+
 
 
 .hotelimage{
     height: 250px;
     width: 250px;
+}
+
+.hotelimgs{
+    margin:4% 59% 4% 4%;
+    background-color:  rgb(132,136,139);
 }

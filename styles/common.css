@@ -1,6 +1,15 @@
 html,body{
     width:100vw;
     height:100vh;
+    margin:0%;
+}
+
+body{
+    background-color: #e0e0e0;
+}
+
+header, footer{
+    background-color:rosybrown;
 }
 
 #hlogo{

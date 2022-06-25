@@ -1,0 +1,18 @@
+.loader{
+    margin: auto;
+    border: 15px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 15px solid  black;
+    width:70px;
+    height: 70px;
+
+
+}
+.loading{
+    height: 500px;
+    width: 100vw;
+    padding: 24% 10% 20% 10%;
+    box-sizing: border-box;
+   
+
+}
