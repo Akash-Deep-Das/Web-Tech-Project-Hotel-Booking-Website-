@@ -3,8 +3,6 @@ html,body{
     height:100vh;
 }
 
-
-
 #hotelimg{
     height:500px;
     width: 500px;
@@ -17,4 +15,9 @@ html,body{
 #formfillhotel{
     margin: 0% 4% 2% 4%;
 }
+#radissoninfo{
+    padding-bottom: 11%;
+}
+
+
 

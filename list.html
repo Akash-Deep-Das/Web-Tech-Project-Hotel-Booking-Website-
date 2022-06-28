@@ -6,42 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/list.css"/>
     <link rel="stylesheet" href="styles/common.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     <title>List</title>
 </head>
 <body style="height: 100vh; width:100vw;">
     <div>
             <header> <!--Header portion-->
                 <a href="index.html"><img id="hlogo" src="assests/images/logo.png" alt="logo"/></a>
-                <a href="login.html" target="_blank">Login</a>
+                <a id="loginbutton" style="text-decoration:none;" href="login.html" target="_blank">Login</a>
             </header>
        
 
-        <div><!--Content Portion-->
-           <ul>
-            <li>
-                <a href="list.html#list-view" target="_self">List View</a>
-            </li>
-            <li>
-                <a href="list.html#map-view" target="_self">Map View</a>
-            </li>
-           </ul>
-
+        <div id="allcontent"><!--Content Portion-->
+           
+                <div class="viewoptions"><a id="lview" href="list.html#list-view" target="_self">List View</a>
+           
+            
+                <a id="mview" href="list.html#map-view" target="_self">Map View</a></div>
+            
          <div id="list-view"><!--All hotel photos together-->
 
-           <a href="detail.html" target="_self"><div class="hotelimgs"><!--Radisson Image-->
+           <a id="radisson" href="detail.html" target="_self"><div class="hotelimge1"><!--Radisson Image-->
             <img class="hotelimage" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"/><br/>
             <h3>Radisson Blu Hotel</h3> 5 Star <br/><br/> New Delhi
            </div>
            </a>
 
-           <div class="hotelimgs"><!--Lalit Hotel-->
-            <img class="hotelimage" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"/><br/>
+           <div id="lalit" class="hotelimgs"><!--Lalit Hotel-->
+            <img  class="hotelimage" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"/><br/>
             <h3>The Lalit New Delhi</h3>
             4.5 Star<br/><br/>
             New Delhi
            </div>
 
-           <div class="hotelimgs"><!--Taj-->
+           <div id="taj" class="hotelimgs"><!--Taj-->
             <img class="hotelimage" src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"/><br/>
             <h3>Taj Palace</h3>
             4.0 Star<br/><br/>
@@ -52,8 +52,7 @@
          
 
            <div id="map-view"><!--Map Image-->
-            <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"/><br/><br/>
-            MAP VIEW
+             <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"/>
 
            </div>
            
@@ -66,16 +65,16 @@
     
         </div>
 
-        <footer><!--FOOTER DIV-->
-            <div>
-                <a href="contact.html">Contact Us</a>
+        <footer id="footer"><!--FOOTER DIV-->
+            <div id="contactlink">
+                <a id="contactuss" href="contact.html">Contact Us</a>
             </div>
-            <div>
+            <div id="socialmediaimgs">
                 <a  href="https://www.facebook.com"><img class="smimg" src="assests/images/facebook.png" /></a>
                 <a  href="https://www.instagram.com"><img class="smimg" src="assests/images/instagram.png" /></a>
                 <a  href="https://twitter.com"><img class="smimg" src="assests/images/twitter.png"/></a>
             </div>
-            <span>&#169; 2020 ROOM SEARCH PVT.LTD </span>
+            <span id="copyright">&#169; 2020 ROOM SEARCH PVT.LTD </span>
         </footer>
 
 

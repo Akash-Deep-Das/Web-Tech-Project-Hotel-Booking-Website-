@@ -10,6 +10,50 @@ body{
 
 header, footer{
     background-color:rosybrown;
+
+    
+    
+}
+
+#loginbutton{ /*Properties for login button anchor tag in header*/
+    float:right;
+    padding-top: 1%;
+    padding-right: 2%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+   
+
+}
+
+#contactlink{
+    position:absolute;
+    left:1%;
+    padding-top: 2.5%;
+    font-family: 'ubuntu',sans-serif;
+    padding-bottom:5%;
+    
+
+}
+
+#contactuss{
+    text-decoration: none;
+    color:black;
+
+}
+
+
+
+footer{
+    width:100vw;
+    height:70px;
+}
+
+#socialmediaimgs{
+    position:absolute;
+    right:3%;
+    padding-top: 2%;
+
 }
 
 #hlogo{
@@ -20,4 +64,24 @@ header, footer{
 .smimg{
     width:22px;
     height:20px;
+}
+
+#copyright{
+    position:absolute;
+    left: 40%;
+    padding-top: 2%;
+    box-sizing: border-box;
+    font-family: 'ubuntu',sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
 }
